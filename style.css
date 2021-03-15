@@ -1,0 +1,154 @@
+.header {
+    background-color: black;
+}
+
+.logo {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+.logoSpan {
+    color: rgb(42, 194, 194);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+.menu a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(42, 194, 194);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu li a:hover {
+    background-color: black;
+}
+
+.conteudo{
+    background-color: white;
+    border: rgb(42, 194, 194) 2px solid;
+    display: block;
+
+}
+.msg{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.msg p{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.categoria{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+
+}
+.card{
+    border: rgb(42, 194, 194) 3px solid;
+    width:250px;
+    margin: 10px;
+}
+.card img{
+    margin: 10px;
+}
+
+.card h3{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.card p{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.rodape p{
+    text-align: center;
+    
+}
+
+.cardPai{
+    display: flex;
+    text-align: center;
+}
+
+.grade{
+    color: black;
+    margin: 10px;
+    border: rgb(42, 194, 194) 3px solid;
+    
+}
+
+.grade h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.gradePai{
+    display: flex;
+}
+
+form{
+    margin: 10px;
+}
+
+.produto{
+    margin: 20px;
+    display: flex;
+}
+
+.produto p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.produto p:hover {
+    font-size: 22px;
+    color: rgb(42, 194, 194);
+    font-weight: bold;
+}
+
+.infoProd{
+    margin: 10px;
+    border: rgb(42, 194, 194) 2px solid;
+    padding: 10px;
+}
